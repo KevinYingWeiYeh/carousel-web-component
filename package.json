@@ -1,0 +1,16 @@
+{
+  "name": "interview-project",
+  "version": "1.0.0",
+  "description": "interview project for carousel web component with vanilla js, the carousel should have 4 slides, each shold contain an image. the slides should slide in/out after users click a \"right\" or \"left\" button",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "prettier": "^1.17.1"
+  }
+}
