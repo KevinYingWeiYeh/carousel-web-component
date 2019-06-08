@@ -1,3 +1,17 @@
 {
-  "extends": "standard"
+  "extends": "airbnb",
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "jasmine": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module",
+    "requireForBlockBody": true,
+    "requireReturnForObjectLiteral": true,
+    "arrow-body-style": ["error", "always"],
+    "allow": ["warn", "error"]
+  }
 }
