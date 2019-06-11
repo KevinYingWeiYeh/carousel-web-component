@@ -13,7 +13,7 @@ This is a interview coding challange project for carousel component in vanilla j
 
 ## How should I customized Carousel component
 
-Carousel accept 5 parameters
+Carousel accept 5 parameters . 
 1> imageSize: image size only can be a square between 50 to 250 pixel. Default is 150 pixel  
 2> imagesOnCarousel: images on carousel can be shown between 1 to 10. Default is 4 images  
 3> imageQuantity: totall images in carousel, and it should to be ( n \* `imagesOnCarousel` ). Deafult is 16 images  
