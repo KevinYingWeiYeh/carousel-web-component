@@ -9,9 +9,9 @@
 // Carousel accept 5 parameters
 // 1> imageSize: image size only can be a square between 50 to 250 pixel. Default is 150 pixel
 // 2> imagesOnCarousel: images on carousel can be shown between 1 to 10. Default is 4 images
-// 3> imageQuantity: totall images in carousel, and it should to be ( n * imagesOnCarousel ). Deafult is 16 images
+// 3> imageQuantity: totall images in carousel, and it should to be ( n * ```imagesOnCarousel``` ). Deafult is 16 images
 // 4> wrapperTag: the root anchor to allow component to display the carousel. Default is 'wrapper'
-// 5> imageList: image list should be an Array with http strings. Notice that default image list auto generate by 'imageQuantity' from 'https://picsum.photos'
+// 5> imageList: image list should be an Array with http strings. Notice that default image list auto generate by ```imageQuantity``` from 'https://picsum.photos'
 
 class Carousel {
   constructor(imageSize = 150, imagesOnCarousel = 4, imageQuantity = 16, wrapperTag = '.wrapper', imageList = []) {
